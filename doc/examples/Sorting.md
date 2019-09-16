@@ -1,4 +1,4 @@
-# Sorting files and detecting duplicates (`sort` and `uniq`)
+# Sorting files
 
 ## sort
 
