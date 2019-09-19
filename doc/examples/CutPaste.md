@@ -73,16 +73,16 @@ operator >.  The output then goes into the file instead of the screen.
     $ python src/tt.py paste data/num10  data/names10 data/words5 > data/kids.csv
 
 
-This command illustrates how I created the file `data/people.csv`
+This command illustrates how I created the file `data/people`
 
-    $ python src/tt.py paste data/names8 data/ages8 data/colors8 data/verbs8 > data/people.csv
+    $ python src/tt.py paste data/names8 data/ages8 data/colors8 data/verbs8 > data/people
 
 
 ## cut
 `cut`, in contrast to `paste`, extracts fields (or columns) of data from a CSV
 file.  By default the 1st column is extracted
 
-    $ python src/tt.py cut data/people.csv
+    $ python src/tt.py cut data/people
     Name 
     Adrianna 
     Julian 
@@ -96,7 +96,7 @@ file.  By default the 1st column is extracted
 
 Use the `-f` flag to specify which field to extract by its number.  Unlike lists in Python, `cut`'sfield numbers begin with 1, not zero.  You'll need to take this into account.
 
-    $ python src/tt.py cut -f 2 data/people.csv
+    $ python src/tt.py cut -f 2 data/people
     Age 
     22 
     36 
@@ -110,7 +110,7 @@ Use the `-f` flag to specify which field to extract by its number.  Unlike lists
 
 A list of fields (possibly non-consecutive) may be specified.  Separate each field in the list with commas.
 
-    $ python src/tt.py cut -f 2,4 data/people.csv
+    $ python src/tt.py cut -f 2,4 data/people
     Age,Locomotion Style 
     22,crawl 
     36,traipse 
@@ -124,7 +124,7 @@ A list of fields (possibly non-consecutive) may be specified.  Separate each fie
 
 When the user specifies an out-of-order list, `cut` will nevertheless print the fields in ascending order, as though the field specification is sorted within the program.  Notice that this command's output is identical to the command above:
 
-    $ python src/tt.py cut -f 4,2 data/people.csv
+    $ python src/tt.py cut -f 4,2 data/people
     Age,Locomotion Style 
     22,crawl 
     36,traipse 

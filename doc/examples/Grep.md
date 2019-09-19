@@ -11,14 +11,14 @@ Find all shades of Blue in our list of colors
 The search pattern is case-sensitive; lowercase 'blue' is not present in our
 list, hence no results are printed *(notice that the prompt appears immediately following the command)*
 
-    $ python src/tt.py grep blue data/people.csv
+    $ python src/tt.py grep blue data/people
     $
 
 
 These people like some kind of 'Blue', demonstrating that the pattern may occur
 anywhere in a line of text.
 
-    $ python src/tt.py grep Blue data/people.csv 
+    $ python src/tt.py grep Blue data/people 
     Adrianna,22,Royal Blue,crawl
     Julian,36,Midnight Blue,traipse
     Michael,23,Dodger Blue,lurch

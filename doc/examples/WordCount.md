@@ -14,10 +14,10 @@ These examples were produced on Linux:
 
 Multiple files may be given at once:
 
-    $ python src/tt.py wc data/let3 data/random20 data/people.csv data/dup5 
+    $ python src/tt.py wc data/let3 data/random20 data/people data/dup5 
     3	3	6	data/let3
     20	20	51	data/random20
-    9	18	278	data/people.csv
+    9	18	278	data/people
     8	8	16	data/dup5
 
 
@@ -25,7 +25,7 @@ Multiple files may be given at once:
 
 The program aborts as soon as a non-existent, invalid or inaccessible file is encountered.  You do not need to pre-screen the arguments before you begin processing:
 
-    $ python src/tt.py wc data/let3 data/random20 data/DOES_NOT_EXIST data/people.csv data/dup5 
+    $ python src/tt.py wc data/let3 data/random20 data/DOES_NOT_EXIST data/people data/dup5 
     3	3	6	data/let3
     20	20	51	data/random20
     Traceback (most recent call last):
