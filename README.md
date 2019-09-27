@@ -31,3 +31,7 @@ I made a start at this project, but only got as far as creating a general outlin
 Read the [example](doc/examples) files to see what a correct program's output might look like.  Test your program against the files under `data/` and compare your output to the provided examples.  Your program should match the example output in the essentials; extra leading or trailing white space is generally permissible, except where its presence changes the meaning of the output.
 
 In the provided samples, lines beginning with `$` represent the command I typed into my shell.  When you run the same command you should not copy the `$`.
+
+## PLACE_HOLDER
+
+I added a .txt file "WorkLog" that is a daily record of my work on this project; it is found within the "doc" directory.

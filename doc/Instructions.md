@@ -43,7 +43,7 @@ This program consists of several functions grouped into modules of related funct
 
 | Tool   | Module                                        | Description
 |--------|-----------------------------------------------|--------------------------------------------------
-| `cat`  | [Concatenate.py](examples/Concatenate.md#cat) | Concatenate files and print on the standard output
+| `cat`  | [Concatenate.py](examples/Concatenate.md#cat) | Concatenate files and print out the standard output
 | `tac`  | [Concatenate.py](examples/Concatenate.md#tac) | Concatenate and print files in reverse
 | `cut`  | [CutPaste.py](examples/CutPaste.md#cut)       | Remove sections from each line of files
 | `paste`| [CutPaste.py](examples/CutPaste.md#paste)     | Merge lines of files
@@ -73,7 +73,7 @@ Rely on the `usage()` function defined in `Usage.py` to display consistent error
 
 #### Too few or invalid arguments
 
-When the `src/tt.py` driver is invoked with an empty or invalid `TOOL` name the `usage()` function should be called with no arguments to output the full usage message:
+When the `src/tt.py` driver is invoked with an empty or invalid `TOOL` name the `usage()` function that should be called with no arguments to output the full usage message:
 
     $ python src/tt.py
     Error: Too few arguments

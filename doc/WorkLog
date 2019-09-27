@@ -1,0 +1,5 @@
+9/26/2019
+    I researched how to create .txt files in PyCharm 2019 and add them to my Git directory as well as looking through
+    all the folders to better understand the situation. I also edited README.md to mention this file, and researched how
+    python functions and modules can be run from the console / Git Bash. Additionally, I took the liberty of reading
+    through the usage() module to understand its inner workings.
