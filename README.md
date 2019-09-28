@@ -4,6 +4,7 @@
 * [Expected Output](doc/examples)
 * [Hints](doc/Hints.md)
 * [Rubric](doc/Rubric.md)
+* [WorkLog](doc/WorkLog)
 
 *Note: this file is a placeholder for your own notes.  When seeking help from the TAs or tutors replace the text in this file with a description of your problem and push it to your repository on GitLab*
 
@@ -19,19 +20,19 @@ I made a start at this project, but only got as far as creating a general outlin
 
 ## Objectives
 
--   Processing command-line arguments in `sys.argv`
+-   Process command-line arguments in `sys.argv`
 -   Organize code into modules
 -   Process string data with Python's built-in functionality
 -   Efficiently process large quantities of data
--   Use the IDE's interactive debugger
 
 
 ## Expected Behavior
 
-Read the [example](doc/examples) files to see what a correct program's output might look like.  Test your program against the files under `data/` and compare your output to the provided examples.  Your program should match the example output in the essentials; extra leading or trailing white space is generally permissible, except where its presence changes the meaning of the output.
+Read the [example](doc/examples) files to see what a correct program's output might look like.
 
-In the provided samples, lines beginning with `$` represent the command I typed into my shell.  When you run the same command you should not copy the `$`.
+In the provided samples, lines beginning with `$` represent the command I typed into my shell.
+When you run the same command you should not copy the `$`.
 
-## PLACE_HOLDER
+## Miscellaneous
 
-I added a .txt file "WorkLog" that is a daily record of my work on this project; it is found within the "doc" directory.
+PLACE_HOLDER

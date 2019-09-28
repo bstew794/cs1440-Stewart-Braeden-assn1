@@ -55,4 +55,3 @@ Ordinarily, `cat` is used by Unix hackers to print a file to the screen
 ## Handling errors
 
 The program aborts as soon as a non-existent, invalid or inaccessible file is encountered.  You do not need to pre-screen the arguments before you begin processing.
-

@@ -14,6 +14,16 @@ import sys
 if len(sys.argv) < 2:
     usage()
     sys.exit(1)
+
+elif sys.argv[1] == "cat":
+    cat(sys.argv[2:])
+
+elif sys.argv[1] == "wc":
+    wc(sys.argv[2:])
+
+elif sys.argv[1] == "head":
+    head(sys.argv[2:])
+
 else:
     print("TODO: determine which tool the user has invoked")
     print("TODO: call on that tool, forwarding any remaining arguments to it")

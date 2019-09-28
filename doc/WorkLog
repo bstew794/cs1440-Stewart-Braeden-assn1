@@ -3,3 +3,10 @@
     all the folders to better understand the situation. I also edited README.md to mention this file, and researched how
     python functions and modules can be run from the console / Git Bash. Additionally, I took the liberty of reading
     through the usage() module to understand its inner workings.
+
+9/27/2019
+    I finished coding and commenting cat in concatenate.py, and I worked on the code for WordCount.py. However, I did not
+    have a clue on how to count the words in the comma-Delimited data/people file and then figured out that I was trying
+    to delimit data/people by commas instead of by just the spaces and I was able to finish WordCount.py. I was also
+    able to complete the functional code for head() in which I also figured out how to make it accept a "-n NUMBER" kind
+    of output.
