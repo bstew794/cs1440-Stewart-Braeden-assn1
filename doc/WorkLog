@@ -17,4 +17,5 @@
     in Partial.py. However, I am dissatisfied with the efficiency of my tail() function because it has to read through
     the entire file twice. Additionally, I coded the error messages to be used for not enough arguments and for when an
     invalid number of lines is given. tt.py should now display an error message for an invalid command. I also finally
-    finished the coding and documentation for cat() in concatenate.py.
+    finished the coding and documentation for cat() in concatenate.py. My final program that I finished today was the
+    sort() function in Sorting.py; comments were added as well.
