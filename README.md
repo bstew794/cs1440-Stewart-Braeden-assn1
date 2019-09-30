@@ -35,4 +35,4 @@ When you run the same command you should not copy the `$`.
 
 ## Miscellaneous
 
-PLACE_HOLDER
+tail() in Partial.py is my most inefficient function since I have it iterate through the given file twice.

@@ -10,3 +10,11 @@
     to delimit data/people by commas instead of by just the spaces and I was able to finish WordCount.py. I was also
     able to complete the functional code for head() in which I also figured out how to make it accept a "-n NUMBER" kind
     of output.
+
+9/29/2019
+    I finished coding and commenting Grep.py, and I finished the comments of head() in Partial.py along with adding the
+    necessary if statements to run grep() from the command line. I also completed the coding and commenting for tail()
+    in Partial.py. However, I am dissatisfied with the efficiency of my tail() function because it has to read through
+    the entire file twice. Additionally, I coded the error messages to be used for not enough arguments and for when an
+    invalid number of lines is given. tt.py should now display an error message for an invalid command. I also finally
+    finished the coding and documentation for cat() in concatenate.py.
