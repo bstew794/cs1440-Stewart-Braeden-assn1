@@ -19,3 +19,9 @@
     invalid number of lines is given. tt.py should now display an error message for an invalid command. I also finally
     finished the coding and documentation for cat() in concatenate.py. My final program that I finished today was the
     sort() function in Sorting.py; comments were added as well.
+
+9/20/2019
+    I added the if statements to access the methods of CutPaste.py and finished the coding for it. I also double checked
+    that my outputs were the same as the desired outputs and looked over the rubric. Whilst perusing them I noticed that
+    EVERY function needs an error message for too few arguments so I modified them. I also fixed a bug where Partial.py
+    would crash instead of send an error message when there was a non-digit parameter for -n.

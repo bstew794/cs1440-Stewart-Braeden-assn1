@@ -1,5 +1,13 @@
+from Usage import usage
+import sys
+
 def cat(args):
     """concatenate files and print on the standard output"""
+    # throws an error message for too few arguments
+    if len(args) <= 0:
+        usage("too few arguments", "cat")
+        sys.exit(2)
+
     # the below for loop opens each file in args and adds the next file to the end of the first file
     for file in args:
         currentFile = open(file)
@@ -12,6 +20,11 @@ def cat(args):
 
 def tac(args):
     """concatenate and print files in reverse"""
+    # throws an error message for too few arguments
+    if len(args) <= 0:
+        usage("too few arguments", "tac")
+        sys.exit(2)
+
     # the below for loop opens each file in args and adds the next file to the end of the first file
     for file in args:
         currentFile = open(file)

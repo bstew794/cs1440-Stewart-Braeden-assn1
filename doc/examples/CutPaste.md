@@ -94,7 +94,7 @@ file.  By default the 1st column is extracted
     Julianna 
 
 
-Use the `-f` flag to specify which field to extract by its number.  Unlike lists in Python, `cut`'sfield numbers begin with 1, not zero.  You'll need to take this into account.
+Use the `-f` flag to specify which field to extract by its number.  Unlike lists in Python, `cut`'s field numbers begin with 1, not zero.  You'll need to take this into account.
 
     $ python src/tt.py cut -f 2 data/people
     Age 

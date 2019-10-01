@@ -1,5 +1,13 @@
+from Usage import usage
+import sys
+
 def wc(files):
     """print newline, word, and byte counts for each file"""
+    # throws an error message for too few arguments
+    if len(files) <= 0:
+        usage("too few arguments", "wc")
+        sys.exit(2)
+
     # reset local count variables at start of every loop as well as open the file to be counted
     for file in files:
         currenFile = open(file)

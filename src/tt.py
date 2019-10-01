@@ -12,7 +12,7 @@ import sys
 
 
 if len(sys.argv) < 2:
-    usage()
+    usage("too few arguments")
     sys.exit(1)
 
 elif sys.argv[1] == "cat":
@@ -36,6 +36,12 @@ elif sys.argv[1] == "grep":
 elif sys.argv[1] == "sort":
     sort(sys.argv[2:])
 
+elif sys.argv[1] == "paste":
+    paste(sys.argv[2:])
+
+elif sys.argv[1] == "cut":
+    cut(sys.argv[2:])
+
 else:
-    usage(sys.argv[1] + " is not a valid command")
+    usage(sys.argv[1] + " is not a valid subcommand")
     sys.exit(1)

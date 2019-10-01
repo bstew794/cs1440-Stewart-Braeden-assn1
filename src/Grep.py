@@ -1,11 +1,24 @@
+from Usage import usage
+import sys
+
 def grep(args):
     """print lines that match patterns"""
+    # throws an error message for too few arguments
+    if len(args) <= 0:
+        usage("too few arguments", "grep")
+        sys.exit(2)
+
     goalWord = args[0]  # stores the substring it is looking for
     startIndex = 1  # points to where the first file is in the argument array
     getOpposite = False  # a variable that stores whether or not "-v" has been invoked from the command line
 
     # sets the proper conditions for if "-v" is invoked at the command line
     if args[0] == "-v":
+        # throws an error message for too few arguments
+        if len(args) <= 3:
+            usage("too few arguments", "grep")
+            sys.exit(3)
+
         goalWord = args[1]
         startIndex = 2
         getOpposite = True

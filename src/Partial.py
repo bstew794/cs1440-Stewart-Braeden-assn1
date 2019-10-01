@@ -17,12 +17,12 @@ def head(args):
         # exits the program with a usage() message if there are not enough arguments
         if len(args) < 3:
             usage('too few arguments', 'head')
-            sys.exit(2)
+            sys.exit(3)
 
         # exits the program with a usage() message if a invalid number of lines is not given
-        if not isinstance(args[1], int):
+        if not args[1].isdigit():
             usage('Number of lines is required', 'head')
-            sys.exit(2)
+            sys.exit(3)
 
         endLineIndex = int(args[1])
         startFileIndex = 2
@@ -59,10 +59,10 @@ def tail(args):
         # exits the program with a usage() message if there are not enough arguments
         if len(args) < 3:
             usage('too few arguments', 'tail')
-            sys.exit(2)
+            sys.exit(3)
 
         # exits the program with a usage() message if a invalid number of lines is not given
-        if not isinstance(args[1], int):
+        if not args[1].isdigit():
             usage('Number of lines is required', 'tail')
             sys.exit(2)
 
