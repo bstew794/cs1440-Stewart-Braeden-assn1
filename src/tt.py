@@ -1,8 +1,9 @@
-#!/usr/bin/env python
+#!/c/Users/bstew/AppData/Local/Programs/Python/Python37/python
 
 from Concatenate import cat, tac
 from CutPaste import cut, paste
 from Grep import grep
+from Grep import startGrep
 from Partial import head, tail
 from Sorting import sort
 from WordCount import wc
@@ -41,6 +42,9 @@ elif sys.argv[1] == "paste":
 
 elif sys.argv[1] == "cut":
     cut(sys.argv[2:])
+
+elif sys.argv[1] == "startGrep":
+    startGrep(sys.argv[2:])
 
 else:
     usage(sys.argv[1] + " is not a valid subcommand")
